@@ -10,6 +10,12 @@
 #endif
 #endif
 
+#import "TWGhost.h"
+#import "TWGhostInteractor.h"
+#import "TWGhostListCell.h"
+#import "TWGhostListEntity.h"
+#import "TWGhostPresenter.h"
+#import "TWGhostProtocol.h"
 
 FOUNDATION_EXPORT double TWGhostVersionNumber;
 FOUNDATION_EXPORT const unsigned char TWGhostVersionString[];

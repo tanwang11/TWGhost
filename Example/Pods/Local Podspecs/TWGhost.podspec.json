@@ -1,6 +1,6 @@
 {
   "name": "TWGhost",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "summary": "TWGhost.",
   "description": "TWGhost tool.",
   "homepage": "https://github.com/tanwang11/TWGhost",
@@ -13,10 +13,24 @@
   },
   "source": {
     "git": "https://github.com/tanwang11/TWGhost.git",
-    "tag": "0.1.0"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "TWGhost/Classes/**/*"
+  "source_files": "Example/TWGhost/Classes/*.{h,m}",
+  "dependencies": {
+    "YYCache": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "TWFoundation": [
+
+    ]
+  }
 }
