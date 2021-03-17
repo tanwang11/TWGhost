@@ -1,0 +1,6 @@
+framework module TWGhost {
+  umbrella header "TWGhost-umbrella.h"
+
+  export *
+  module * { export * }
+}

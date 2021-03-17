@@ -1,9 +1,18 @@
 use_frameworks!
 
+source 'https://github.com/tanwang11/TWSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
 platform :ios, '9.0'
 
 target 'TWGhost_Example' do
   pod 'TWGhost', :path => '../'
+  
+  pod 'YYModel'
+  pod 'YYCache'
+  pod 'Masonry'
+  pod 'TWFoundation'
 
   target 'TWGhost_Tests' do
     inherit! :search_paths

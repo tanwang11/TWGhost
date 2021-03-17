@@ -1,0 +1,22 @@
+{
+  "name": "TWGhost",
+  "version": "0.1.0",
+  "summary": "TWGhost.",
+  "description": "TWGhost tool.",
+  "homepage": "https://github.com/tanwang11/TWGhost",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tanwang11": "aihy@linrunwc.com"
+  },
+  "source": {
+    "git": "https://github.com/tanwang11/TWGhost.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TWGhost/Classes/**/*"
+}

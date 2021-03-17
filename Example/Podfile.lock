@@ -1,0 +1,73 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
+  - TWFoundation (0.0.3):
+    - TWFoundation/NSArray (= 0.0.3)
+    - TWFoundation/NSData (= 0.0.3)
+    - TWFoundation/NSDate (= 0.0.3)
+    - TWFoundation/NSDecimalNumber (= 0.0.3)
+    - TWFoundation/NSDictionary (= 0.0.3)
+    - TWFoundation/NSFileManager (= 0.0.3)
+    - TWFoundation/NSObject (= 0.0.3)
+    - TWFoundation/NSString (= 0.0.3)
+    - TWFoundation/Prefix (= 0.0.3)
+    - TWFoundation/TWAssistant (= 0.0.3)
+  - TWFoundation/NSArray (0.0.3):
+    - TWFoundation/NSObject
+    - TWFoundation/Prefix
+  - TWFoundation/NSData (0.0.3)
+  - TWFoundation/NSDate (0.0.3):
+    - TWFoundation/NSString
+  - TWFoundation/NSDecimalNumber (0.0.3):
+    - TWFoundation/NSObject
+  - TWFoundation/NSDictionary (0.0.3):
+    - TWFoundation/NSObject
+    - TWFoundation/Prefix
+  - TWFoundation/NSFileManager (0.0.3)
+  - TWFoundation/NSObject (0.0.3)
+  - TWFoundation/NSString (0.0.3):
+    - TWFoundation/NSObject
+    - TWFoundation/Prefix
+  - TWFoundation/Prefix (0.0.3)
+  - TWFoundation/TWAssistant (0.0.3):
+    - TWFoundation/Prefix
+  - TWGhost (0.1.0)
+  - YYCache (1.0.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Masonry
+  - TWFoundation
+  - TWGhost (from `../`)
+  - YYCache
+  - YYModel
+
+SPEC REPOS:
+  https://github.com/tanwang11/TWSpecs.git:
+    - TWFoundation
+  trunk:
+    - FBSnapshotTestCase
+    - Masonry
+    - YYCache
+    - YYModel
+
+EXTERNAL SOURCES:
+  TWGhost:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TWFoundation: 5293f8fb88c98bd82c27df97ce9a74c373071e9a
+  TWGhost: 60f8e44fe46dfaa3f61de5ec31cb3a1435042723
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: ad2c3e9d11fd268bd7cbf47f56b8d6c7fa917756
+
+COCOAPODS: 1.10.1

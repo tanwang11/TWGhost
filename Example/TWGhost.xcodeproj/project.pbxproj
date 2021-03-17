@@ -24,6 +24,12 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A23A0D4900657C248605A2C2 /* Pods_TWGhost_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793AE6BC4F1AA831EC8E969D /* Pods_TWGhost_Tests.framework */; };
+		D1805D292601950D00C3989A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D1805D262601950D00C3989A /* .gitkeep */; };
+		D1805D452601976100C3989A /* TWGhost.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805D442601976100C3989A /* TWGhost.m */; };
+		D1805D4A260197BD00C3989A /* TWGhostInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805D49260197BD00C3989A /* TWGhostInteractor.m */; };
+		D1805D4F260197E200C3989A /* TWGhostListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805D4E260197E200C3989A /* TWGhostListCell.m */; };
+		D1805D542601982000C3989A /* TWGhostListEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805D532601982000C3989A /* TWGhostListEntity.m */; };
+		D1805D592601983600C3989A /* TWGhostPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805D582601983600C3989A /* TWGhostPresenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,7 @@
 		0060E5F6EA3E9C57F0A05E18 /* Pods-TWGhost_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWGhost_Example.debug.xcconfig"; path = "Target Support Files/Pods-TWGhost_Example/Pods-TWGhost_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		17F2DD4862D860785CCCA7BC /* Pods_TWGhost_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWGhost_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		357F4488F76E58AC7E075621 /* Pods-TWGhost_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWGhost_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TWGhost_Tests/Pods-TWGhost_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		414484B2821CD118F6914305 /* TWGhost.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TWGhost.podspec; path = ../TWGhost.podspec; sourceTree = "<group>"; };
+		414484B2821CD118F6914305 /* TWGhost.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWGhost.podspec; path = ../TWGhost.podspec; sourceTree = "<group>"; };
 		557449C54B114724E42FC60E /* Pods-TWGhost_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWGhost_Example.release.xcconfig"; path = "Target Support Files/Pods-TWGhost_Example/Pods-TWGhost_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TWGhost_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWGhost_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,11 +68,23 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		76277FABA51E25A63B618134 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		76277FABA51E25A63B618134 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		793AE6BC4F1AA831EC8E969D /* Pods_TWGhost_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWGhost_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE63B25DC16E4FF8BBF6D3DD /* Pods-TWGhost_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWGhost_Tests.release.xcconfig"; path = "Target Support Files/Pods-TWGhost_Tests/Pods-TWGhost_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CB1FD17EAEEBE1E9E59C1122 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CB1FD17EAEEBE1E9E59C1122 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D1805D262601950D00C3989A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D1805D2F2601967100C3989A /* TWGhostProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWGhostProtocol.h; sourceTree = "<group>"; };
+		D1805D432601976100C3989A /* TWGhost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWGhost.h; sourceTree = "<group>"; };
+		D1805D442601976100C3989A /* TWGhost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWGhost.m; sourceTree = "<group>"; };
+		D1805D48260197BD00C3989A /* TWGhostInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWGhostInteractor.h; sourceTree = "<group>"; };
+		D1805D49260197BD00C3989A /* TWGhostInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWGhostInteractor.m; sourceTree = "<group>"; };
+		D1805D4D260197E200C3989A /* TWGhostListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWGhostListCell.h; sourceTree = "<group>"; };
+		D1805D4E260197E200C3989A /* TWGhostListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWGhostListCell.m; sourceTree = "<group>"; };
+		D1805D522601982000C3989A /* TWGhostListEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWGhostListEntity.h; sourceTree = "<group>"; };
+		D1805D532601982000C3989A /* TWGhostListEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWGhostListEntity.m; sourceTree = "<group>"; };
+		D1805D572601983600C3989A /* TWGhostPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWGhostPresenter.h; sourceTree = "<group>"; };
+		D1805D582601983600C3989A /* TWGhostPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWGhostPresenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +150,8 @@
 		6003F593195388D20070C39A /* Example for TWGhost */ = {
 			isa = PBXGroup;
 			children = (
+				D1805D252601950D00C3989A /* Assets */,
+				D1805D272601950D00C3989A /* Classes */,
 				6003F59C195388D20070C39A /* TAppDelegate.h */,
 				6003F59D195388D20070C39A /* TAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,8 +213,33 @@
 				357F4488F76E58AC7E075621 /* Pods-TWGhost_Tests.debug.xcconfig */,
 				AE63B25DC16E4FF8BBF6D3DD /* Pods-TWGhost_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1805D252601950D00C3989A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D1805D262601950D00C3989A /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D1805D272601950D00C3989A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1805D432601976100C3989A /* TWGhost.h */,
+				D1805D442601976100C3989A /* TWGhost.m */,
+				D1805D48260197BD00C3989A /* TWGhostInteractor.h */,
+				D1805D49260197BD00C3989A /* TWGhostInteractor.m */,
+				D1805D4D260197E200C3989A /* TWGhostListCell.h */,
+				D1805D4E260197E200C3989A /* TWGhostListCell.m */,
+				D1805D522601982000C3989A /* TWGhostListEntity.h */,
+				D1805D532601982000C3989A /* TWGhostListEntity.m */,
+				D1805D572601983600C3989A /* TWGhostPresenter.h */,
+				D1805D582601983600C3989A /* TWGhostPresenter.m */,
+				D1805D2F2601967100C3989A /* TWGhostProtocol.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +304,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +326,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				D1805D292601950D00C3989A /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -303,11 +350,19 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TWGhost_Example/Pods-TWGhost_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/TWFoundation/TWFoundation.framework",
 				"${BUILT_PRODUCTS_DIR}/TWGhost/TWGhost.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWFoundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWGhost.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -383,8 +438,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1805D4A260197BD00C3989A /* TWGhostInteractor.m in Sources */,
+				D1805D452601976100C3989A /* TWGhost.m in Sources */,
+				D1805D4F260197E200C3989A /* TWGhostListCell.m in Sources */,
 				6003F59E195388D20070C39A /* TAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TViewController.m in Sources */,
+				D1805D592601983600C3989A /* TWGhostPresenter.m in Sources */,
+				D1805D542601982000C3989A /* TWGhostListEntity.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,6 @@
+framework module Pods_TWGhost_Example {
+  umbrella header "Pods-TWGhost_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
